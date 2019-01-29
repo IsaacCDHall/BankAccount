@@ -10,17 +10,36 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
-        <h1>Register NOW!</h1>
-      </div>
       <form class="formGroup" action="index.html" method="post">
-        <label for="Name">Name</label>
-        <input type="text" id="clientName">
-
-        <label>Initial Deposit</label>
-        <input type="number" id="initialDeposit">
-        <button type="submit" class="bg-success" id="initialDepositButton">make that money</button>
+        <div class="form-group" id="nameInitial">
+          <div class="jumbotron">
+            <h1>Register NOW!</h1>
+          </div>
+          <label> Name</label>
+          <input type="text" id="clientName">
+          <label>Initial Deposit</label>
+          <input type="number" id="initialDeposit">
+          <br><br>
+          <button type="submit" class="bg-success">SUBMIT IT</button>
+        </div>
       </form>
+      <form class="depositWithdrawal" action="">
+        <div class="form-group" id="depositWithdrawal">
+          <div class="jumbotron">
+            <h1>I LOVE MONEY! WELCOME TO MY BANK!</h1>
+          </div>
+          <label> Deposit</label>
+          <input required type="number" id="deposit">
+          <label>Withdrawal</label>
+          <input required type="number" id="withdrawal">
+          <br><br>
+          <button type="submit" class="bg-success">SHOW ME WHAT YOU GOT!</button>
+        </div>
+      </form>
+      <div class="jumbotron" id="balanceShown">
+        <h3>Your Balance is <span class="showBalance"></span>!</h3>
+      </div>
+
     </div>
   </body>
 </html>
