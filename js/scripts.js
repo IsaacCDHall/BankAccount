@@ -34,5 +34,18 @@ $(document).ready(function() {
     console.log(account);
     $(".showBalance").text(account.balance);
     $("#balanceShown").show("slow");
+    if(account.balance === 69){
+      $('.jumbotron').addClass('illusion')
+      $('.sixtyNine').addClass('illusion');
+    }
+    else if(account.balance === 420){
+      $('img').show();
+      $('body').removeClass('body');
+    }else{
+      $(".sixtyNine").removeClass('illusion');
+      $("img").hide();
+
+    }
+
   });
 });

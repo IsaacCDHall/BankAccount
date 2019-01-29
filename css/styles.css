@@ -1,7 +1,62 @@
+@font-face { font-family:cashMoney; src: url('cashMoney.ttf'); }
 #depositWithdrawal {
   display: none;
 }
 #balanceShown {
+  font-family: cashMoney;
   display: none;
   text-align: center;
 }
+}
+img{
+  display:none;
+}
+body{
+  background-image: linear-gradient(to bottom right, rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
+
+  background-size: 100% 300%;
+
+  font-family: cashMoney;
+}
+.jumbotron{
+  background-image: url("../img/dollaBillYall.jpg");
+  background-size: contain;
+}
+
+.illusion {
+  background-image: url("../img/giphy.gif");
+  background-image: url("../img/optical_illusion.gif");
+  background-size: cover;
+h1{
+  color:darkgreen;
+}
+.reduceSize{
+  font-size: 12px;
+}
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+#animate-area	{
+	width: 560px;
+	height: 400px;
+
+  background-image: url("../img/dollaBillYall.jpg");
+  background-size: contain;
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
+}
+/* input {
+  background-image: url("../img/optical_illusion.gif");
+  background-size: cover;
+}
+.jumbotron {
+  background-image: url("../img/optical_illusion.gif");
+  background-size: cover;
+}
+body {
+  background-image: url("../img/optical_illusion.gif");
+  background-size: cover;
+} */
