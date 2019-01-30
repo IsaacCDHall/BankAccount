@@ -1,4 +1,4 @@
-var account = 0;
+
 
 function NewAccount(name, balance) {
   this.name = name;

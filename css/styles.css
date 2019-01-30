@@ -7,15 +7,15 @@
   display: none;
   text-align: center;
 }
-}
+
 img{
   display:none;
 }
 body{
-  background-image: linear-gradient(to bottom right, rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
+  background-image: url("../img/max.jpg");
 
-  background-size: 100% 300%;
-
+  background-size: auto 100vh;
+  overflow: hidden;
   font-family: cashMoney;
 }
 .jumbotron{
@@ -27,6 +27,7 @@ body{
   background-image: url("../img/giphy.gif");
   background-image: url("../img/optical_illusion.gif");
   background-size: cover;
+}
 h1{
   color:darkgreen;
 }
